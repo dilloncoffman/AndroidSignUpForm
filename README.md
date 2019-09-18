@@ -1,9 +1,9 @@
 # SignUpForm App Starts Up
 ![App loads](screenshot1.png)
-# User enters fields, leaves one empty, gets toast error
+# User enters fields, leaves one empty, gets toast empty fields error
 ![Empty field error](screenshot2-emptyfield.png)
-# Users password fields do not match, gets a toast error
+# User's password fields do not match, gets toast password error
 ![Password fields error](screenshot3-passwordsdontmatch.png)
-# Users password fields match and all fields are populated, hits save, and gets welcome message
+# User's password fields match and all fields are populated, clicks save, and gets welcome message
 ![App works](screenshot4-welcomemessage.png)
 
