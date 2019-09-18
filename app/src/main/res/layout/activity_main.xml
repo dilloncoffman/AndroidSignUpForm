@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/nameInput"
         android:layout_width="195dp"
         android:layout_height="40dp"
         android:layout_marginStart="100dp"
@@ -60,7 +60,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/emailInput"
         android:layout_width="195dp"
         android:layout_height="40dp"
         android:layout_marginStart="100dp"
@@ -70,10 +70,10 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+        app:layout_constraintTop_toBottomOf="@+id/nameInput" />
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/passwordInput"
         android:layout_width="195dp"
         android:layout_height="40dp"
         android:layout_marginStart="72dp"
@@ -83,10 +83,10 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/editText11" />
+        app:layout_constraintTop_toBottomOf="@+id/emailInput" />
 
     <EditText
-        android:id="@+id/editText14"
+        android:id="@+id/confirmPassInput"
         android:layout_width="195dp"
         android:layout_height="40dp"
         android:layout_marginStart="55dp"
@@ -96,7 +96,7 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/editText13" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordInput" />
 
     <Button
         android:id="@+id/saveBtn"
@@ -111,6 +111,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText14" />
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassInput" />
 
 </android.support.constraint.ConstraintLayout>
